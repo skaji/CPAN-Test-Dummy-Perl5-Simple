@@ -1,0 +1,50 @@
+{
+   "abstract" : "What is CPAN module?",
+   "author" : [
+      "Shoichi Kaji <skaji@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.011, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "CPAN-Test-Dummy-Perl5-Simple",
+   "no_index" : {
+      "directory" : [
+         "t"
+      ]
+   },
+   "prereqs" : {
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "provides" : {
+      "CPAN::Test::Dummy::Perl5::Simple" : {
+         "file" : "lib/CPAN/Test/Dummy/Perl5/Simple.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/skaji/CPAN-Test-Dummy-Perl5-Simple/issues"
+      },
+      "homepage" : "https://github.com/skaji/CPAN-Test-Dummy-Perl5-Simple",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/skaji/CPAN-Test-Dummy-Perl5-Simple.git",
+         "web" : "https://github.com/skaji/CPAN-Test-Dummy-Perl5-Simple"
+      }
+   },
+   "version" : "0.001",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.02",
+   "x_static_install" : "1"
+}
+
